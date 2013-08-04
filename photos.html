@@ -15,12 +15,6 @@
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
     <!--[if lt IE 7]><link rel="stylesheet" href="css/bootstrap-ie6.css"><![endif]-->
     <link rel="stylesheet" href="css/bootstrap-image-gallery.css">
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/load-image.js"></script>
-    <script src="js/bootstrap-image-gallery.js"></script>
-    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -30,72 +24,80 @@
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="photos.html">Photos</a></li>
                 <li><a href="http://nas.confortifamily.com">NAS</a></li>
-                <li><a href="#">Family Calendar</a></li>
+                <li><a href="calendar.html">Family Calendar</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <h3 class="text-muted">Conforti Family</h3>
+            <h3 class="text-primary">Conforti Family</h3>
         </div>
-
-        
-        <br />
-
-            <!-- modal-gallery is the modal dialog used for the image gallery -->
-            <div id="modal-gallery" class="modal modal-gallery hide fade" tabindex="-1">
-                <div class="modal-header">
-                    <a class="close" data-dismiss="modal">&times;</a>
-                    <h3 class="modal-title"></h3>
-                </div>
-                <div class="modal-body">
-                    <div class="modal-image"></div>
-                </div>
-                <div class="modal-footer">
-                    <a class="btn btn-primary modal-next">Next <i class="icon-arrow-right icon-white"></i></a>
-                    <a class="btn btn-info modal-prev"><i class="icon-arrow-left icon-white"></i>Previous</a>
-                    <a class="btn btn-success modal-play modal-slideshow" data-slideshow="5000"><i class="icon-play icon-white"></i>Slideshow</a>
-                    <a class="btn modal-download" target="_blank"><i class="icon-download"></i>Download</a>
-                </div>
-            </div>
 
         <div class="jumbotron">
-            <div id="gallery" data-toggle="modal-gallery" data-target="#modal-gallery" data-selector="div.gallery-item">
-                <!--<span class="gal_img_box gal_img_box_id7451">
-                    <a data-gallery="gallery" href="images/1.jpg" class="gal_img" title ="" rel="gallery">
-	                <img src="images/1.jpg" /></a></span>-->
 
-            </div>
+            <ul class="thumbnails">
+
+                <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/1.jpg"><img class="group1" src="img/pics/1.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/2.jpg"><img class="group1" src="img/pics/2.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/3.jpg"><img class="group1" src="img/pics/3.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/4.jpg"><img class="group1" src="img/pics/4.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/5.jpg"><img class="group1" src="img/pics/5.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/6.jpg"><img class="group1" src="img/pics/6.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/7.jpg"><img class="group1" src="img/pics/7.jpg" /></a>
+                    </li> <!--end thumb -->
+                    <li class="span3">
+                        <a class="thumbnail" rel="lightbox[group]" href="img/pics/8.jpg"><img class="group1" src="img/pics/8.jpg" /></a>
+                    </li> <!--end thumb -->
+            </ul><!--end thumbnails -->
+               
         </div>
 
-    <div class="row marketing">
-        <div class="col-lg-6">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-            <h4>Subheading</h4>
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-            <h4>Subheading</h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        <div class="footer">
+            <p>&copy; Conforti Family 2013</p>
         </div>
-
-        <div class="col-lg-6">
-            <h4>Subheading</h4>
-            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-            <h4>Subheading</h4>
-            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-            <h4>Subheading</h4>
-            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-        </div>
-    </div>
-
-    <div class="footer">
-        <p>&copy; Company 2013</p>
-    </div>
 
     </div>
     <!-- /container -->
-</body>
 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
+            (function (d, t) {
+                var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                g.src = ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s)
+            }(document, 'script'));
+
+            // Colorbox Call
+
+            $(document).ready(function () {
+                $("[rel^='lightbox']").prettyPhoto();
+            });
+        </script>
+</body>
 </html>
