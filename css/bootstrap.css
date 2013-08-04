@@ -4344,6 +4344,17 @@ a.list-group-item.active > .badge,
   background-color: #eeeeee;
 }
 
+.jumbotronn {
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-right: -10px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+}
+
 .jumbotron h1 {
   line-height: 1;
   color: inherit;
@@ -4355,7 +4366,11 @@ a.list-group-item.active > .badge,
 
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding: 30px 10px 10px 10px;
+    padding: 50px 60px;
+    border-radius: 6px;
+  }
+  .jumbotronn {
+    padding: 30px 10px 20px 30px;
     border-radius: 6px;
   }
   .jumbotron h1 {
